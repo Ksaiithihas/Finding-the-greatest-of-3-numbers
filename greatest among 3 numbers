@@ -1,0 +1,29 @@
+
+#include <stdio.h>
+
+void main ()
+{
+    int a,b,c;
+
+    printf("enter the a value :");
+    scanf("%d",&a);
+    printf("enter the b value :");
+    scanf("%d",&b);
+    printf("enter the c value :");
+    scanf("%d",&c);
+            
+    if ((a>b) && (a>c))
+        {
+            printf("a is greater than bc");
+        }
+    if ((b>a)&& (b>c))
+        {
+            printf("b is greater than ac");
+        }
+    if ((c>a)&&(c>b))
+        {
+            printf("c is greater than ab");
+        }
+}
+
+
